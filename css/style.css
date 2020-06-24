@@ -1,0 +1,199 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+.brand-logo {
+    color:black!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.waves-effect {
+    color: #0ba376!important;
+}
+
+.jumbotron {
+    background-image: url('../assets/img/bg-img3.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-top: -75px;
+}
+
+.home img {
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    border: 4px solid white;
+}
+
+.home .display-4 {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+   
+.home .lead {
+    font-size: 20px;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+.jumbotron .about {
+    margin-top: 30px;
+}
+
+.jumbotron .about img {
+    width: 200px;
+    height: 290px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.jumbotron .about .custom {
+    position: absolute;
+    margin-left: -190px;
+    margin-top: 10px;
+}
+
+.about p {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  
+.about span {
+    color: #0ba376;
+}
+
+.about2 .drawer {
+    display: table;
+    width: 100%;
+    background-color:white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.about2 .drawer img {
+    display: block;
+    max-width: 100%;
+}
+
+.about2 h5{
+    font-family: 'Poppins', Helvetica, sans-serif ;
+}
+
+.about2 p {
+    font-family: 'Poppins', Helvetica, sans-serif ;
+    font-size: 15px;
+}
+
+.about2 span {
+    color: #0ba376;
+}
+
+.about2 .drawer {
+    margin-bottom: 4px;
+}
+
+.main2 .contact  {
+    margin-top: 150px;
+}
+
+.gallery .card-action {
+    margin-top: -20px;
+}
+
+.gallery a {
+    color: #0ba376!important;
+    text-decoration: none!important;
+}
+
+.gallery a:hover {
+    color: black!important;
+}
+
+.gallery .custom {
+    height:160px;
+}
+
+.jumbotron .resume {
+    margin-top: 30px;
+}
+  
+.jumbotron .resume i {  
+    font-size: 20px;
+    color: #0ba376;
+}
+  
+.jumbotron .resume h4 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+  
+.jumbotron .resume p {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.jumbotron .contact {
+    margin-top: 60px;
+}
+
+.contact i {
+    font-size: 33px;
+    color: #0ba376;
+
+}
+
+.contact h4 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 0 35px;
+}
+
+.copyright p {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.copyright span {
+    color: #0ba376;
+}
+
+@media (min-width: 992px) {
+
+    .home img {
+        margin-top: 100px;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        position: relative;
+        z-index: 1;
+    }
+    .home .display-4 {
+        font-weight: 300;
+        font-size: 50px;
+        font-family: 'Poppins', Helvetica, sans-serif;
+    }    
+    .home .lead {
+        font-weight: 300;
+        font-size: 30px;
+        font-family: 'Poppins', Helvetica, sans-serif;
+    }
+    .map {
+        width: 100%;
+        height: 410px;
+    }
+    
+  
+}
+  
+
