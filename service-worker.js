@@ -1,6 +1,7 @@
 const CACHE_NAME = "pwaawp-v1";
 let urlsToCache = [
   "/",
+  "/manifest.json",
   "/nav.html",
   "/index.html",
   "/pages/home.html",
@@ -12,6 +13,7 @@ let urlsToCache = [
   "/js/materialize.min.js",
   "/js/script.js",
   "https://fonts.googleapis.com/icon?family=Material+Icons",
+  "apple-touch-icon.png",
   "/icon.png",
   "/icon512.png",
   "/assets/img/courses/cisco.png",
