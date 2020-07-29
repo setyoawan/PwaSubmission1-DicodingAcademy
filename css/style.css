@@ -1,19 +1,26 @@
 /* google font  */
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../assets/font/poppins/Poppins-Regular.ttf");
+}
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("../assets/font/poppins/Poppins-Medium.ttf");
+}
+
 
 .brand-logo {
-    color:black!important;
-    font-family: 'Roboto', sans-serif;
+    color: black !important;
+    font-family: Poppins-Medium, Helvetica, sans-serif;
 }
 
 .nav-wrapper i {
-    color :black;
+    color: black;
 }
 
 .waves-effect {
-    color: #0ba376!important;
+    color: #0ba376 !important;
 }
 
 .jumbotron {
@@ -37,12 +44,40 @@
     margin-top: 40px;
     font-weight: 400;
     font-size: 30px;
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
 }
-   
+
 .home .lead {
-    font-size: 20px;
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-media ul li a {
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    opacity: .9;
 }
 
 .jumbotron .about {
@@ -63,19 +98,20 @@
 }
 
 .about p {
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
     font-size: 15px;
-  }
-  
+}
+
 .about span {
     color: #0ba376;
 }
 
 .about2 .drawer {
+    margin-top: 20px;
     display: table;
     width: 100%;
-    background-color:white;
-    padding: 25px;
+    background-color: white;
+    padding: 15px;
     border-radius: 10px;
 }
 
@@ -84,12 +120,12 @@
     max-width: 100%;
 }
 
-.about2 h5{
-    font-family: 'Poppins', Helvetica, sans-serif ;
+.about2 h5 {
+    font-family: Poppins-Regular, Helvetica, sans-serif;
 }
 
 .about2 p {
-    font-family: 'Poppins', Helvetica, sans-serif ;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -101,7 +137,7 @@
     margin-bottom: 4px;
 }
 
-.main2 .contact  {
+.main2 .contact {
     margin-top: 150px;
 }
 
@@ -110,33 +146,33 @@
 }
 
 .gallery a {
-    color: #0ba376!important;
-    text-decoration: none!important;
+    color: #0ba376 !important;
+    text-decoration: none !important;
 }
 
 .gallery a:hover {
-    color: black!important;
+    color: black !important;
 }
 
 .gallery .custom {
-    height:160px;
+    height: 160px;
 }
 
 .jumbotron .resume {
     margin-top: 30px;
 }
-  
-.jumbotron .resume i {  
+
+.jumbotron .resume i {
     font-size: 20px;
     color: #0ba376;
 }
-  
+
 .jumbotron .resume h4 {
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
 }
-  
+
 .jumbotron .resume p {
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -151,7 +187,7 @@
 }
 
 .contact h4 {
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
     font-size: 15px;
     margin-top: 8px;
     font-weight: 600;
@@ -165,7 +201,7 @@
 }
 
 .copyright p {
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: Poppins-Regular, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -183,22 +219,23 @@
         position: relative;
         z-index: 1;
     }
+
     .home .display-4 {
         font-weight: 300;
-        font-size: 50px;
-        font-family: 'Poppins', Helvetica, sans-serif;
-    }    
+        font-size: 40px;
+        font-family: Poppins-Regular, Helvetica, sans-serif;
+    }
+
     .home .lead {
         font-weight: 300;
-        font-size: 30px;
-        font-family: 'Poppins', Helvetica, sans-serif;
+        font-size: 20px;
+        font-family: Poppins-Regular, Helvetica, sans-serif;
     }
+
     .map {
         width: 100%;
         height: 410px;
     }
-    
-  
-}
-  
 
+
+}
